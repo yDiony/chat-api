@@ -1,0 +1,29 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "Demonstração inicio api chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yDiony/chat-api.git"
+  },
+  "keywords": [
+    "chat",
+    "api",
+    "node"
+  ],
+  "author": "Diony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yDiony/chat-api/issues"
+  },
+  "homepage": "https://github.com/yDiony/chat-api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
