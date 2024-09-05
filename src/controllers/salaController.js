@@ -7,7 +7,7 @@ exports.get=async(req, res)=>{
 
 exports.enviarMensagem = async (nick, msg, idsala) => {
     const sala = await salaModel.buscarSala(idsala);
-    if (sala.msgs) {
+    if (!sala.msgs) {
         sala.msgs = [];
     }
     let timestamp = Date.now()
